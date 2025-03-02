@@ -1,0 +1,13 @@
+{
+  "name": "Classic Margherita Pizza",
+  "ingredients": [
+    "Pizza dough",
+    "Tomato sauce",
+    "Fresh mozzarella cheese",
+    "Fresh basil leaves",
+    "Olive oil",
+    "Salt and pepper to taste"
+  ],
+  "prepTimeMinutes": 20,
+  "rating": 4.6
+}

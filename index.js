@@ -1,5 +1,11 @@
 import fetch from 'node-fetch';
 import fs from 'fs/promises'
+import moment from 'moment';
+
+
+function formatDate(date) {
+    return moment(date).format('MMMM Do YYYY, h:mm:ss a');
+}
 
 async function getRecipes() {
     const response = await fetch('https://dummyjson.com/recipes');
@@ -16,8 +22,13 @@ async function getUsers() {
     const response = await fetch('https://dummyjson.com/users');
     const data = await response.json();
     const users = data.users.map((user) => {
-        const { id, fullName, email, birthDate, country } = user;
-        return { id, fullName, email, birthDate, country };
+        return {
+            id: user.id,
+            fullName: user.firstName + ' ' + user.lastName, 
+            email: user.email,
+            birthDate: formatDate(user.birthDate),
+            country: user.address.country 
+        }
     });
     await fs.writeFile('users.json', JSON.stringify(users, null, 2));
     console.log('users.json created');
@@ -28,10 +39,10 @@ async function getUser(id){
     const data = await response.json();
     const user = {
         id: data.id,
-        fullName: data.fullName,
+        fullName: data.firstName + ' ' + data.lastName,
         email: data.email,
-        birthDate: data.birthDate,
-        country: data.country
+        birthDate: formatDate(data.birthDate),
+        country: data.address.country
     };
     await fs.writeFile(`user-${id}.json`, JSON.stringify(user, null, 2));
     console.log(`user-${id}.json created`);

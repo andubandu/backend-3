@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "fullName": "Emily Johnson",
+    "email": "emily.johnson@x.dummyjson.com",
+    "birthDate": "May 30th 1996, 12:00:00 am",
+    "country": "United States"
+  },
+  {
+    "id": 2,
+    "fullName": "Michael Williams",
+    "email": "michael.williams@x.dummyjson.com",
+    "birthDate": "August 10th 1989, 12:00:00 am",
+    "country": "United States"
+  },
+  {
+    "id": 3,
+    "fullName": "Sophia Brown",
+    "email": "sophia.brown@x.dummyjson.com",
+    "birthDate": "November 6th 1982, 12:00:00 am",
+    "country": "United States"
+  },
+  {
+    "id": 4,
+    "fullName": "James Davis",
+    "email": "james.davis@x.dummyjson.com",
+    "birthDate": "May 4th 1979, 12:00:00 am",
+    "country": "United States"
+  },
+  {
+    "id": 5,
+    "fullName": "Emma Miller",
+    "email": "emma.miller@x.dummyjson.com",
+    "birthDate": "June 13th 1994, 12:00:00 am",
+    "country": "United States"
+  },
+  {
+    "id": 6,
+    "fullName": "Olivia Wilson",
+    "email": "olivia.wilson@x.dummyjson.com",
+    "birthDate": "April 20th 2002, 12:00:00 am",
+    "country": "United States"
+  },
+  {
+    "id": 7,
+    "fullName": "Alexander Jones",
+    "email": "alexander.jones@x.dummyjson.com",
+    "birthDate": "October 20th 1986, 12:00:00 am",
+    "country": "United States"
+  },
+  {
+    "id": 8,
+    "fullName": "Ava Taylor",
+    "email": "ava.taylor@x.dummyjson.com",
+    "birthDate": "August 25th 1997, 12:00:00 am",
+    "country": "United States"
+  },
+  {
+    "id": 9,
+    "fullName": "Ethan Martinez",
+    "email": "ethan.martinez@x.dummyjson.com",
+    "birthDate": "February 12th 1991, 12:00:00 am",
+    "country": "United States"
+  },
+  {
+    "id": 10,
+    "fullName": "Isabella Anderson",
+    "email": "isabella.anderson@x.dummyjson.com",
+    "birthDate": "June 10th 1993, 12:00:00 am",
+    "country": "United States"
+  },
+  {
+    "id": 11,
+    "fullName": "Liam Garcia",
+    "email": "liam.garcia@x.dummyjson.com",
+    "birthDate": "June 6th 1995, 12:00:00 am",
+    "country": "United States"
+  },
+  {
+    "id": 12,
+    "fullName": "Mia Rodriguez",
+    "email": "mia.rodriguez@x.dummyjson.com",
+    "birthDate": "August 4th 2000, 12:00:00 am",
+    "country": "United States"
+  },
+  {
+    "id": 13,
+    "fullName": "Noah Hernandez",
+    "email": "noah.hernandez@x.dummyjson.com",
+    "birthDate": "June 5th 1984, 12:00:00 am",
+    "country": "United States"
+  },
+  {
+    "id": 14,
+    "fullName": "Charlotte Lopez",
+    "email": "charlotte.lopez@x.dummyjson.com",
+    "birthDate": "June 8th 1988, 12:00:00 am",
+    "country": "United States"
+  },
+  {
+    "id": 15,
+    "fullName": "William Gonzalez",
+    "email": "william.gonzalez@x.dummyjson.com",
+    "birthDate": "March 27th 1992, 12:00:00 am",
+    "country": "United States"
+  },
+  {
+    "id": 16,
+    "fullName": "Avery Perez",
+    "email": "avery.perez@x.dummyjson.com",
+    "birthDate": "March 10th 1999, 12:00:00 am",
+    "country": "United States"
+  },
+  {
+    "id": 17,
+    "fullName": "Evelyn Sanchez",
+    "email": "evelyn.sanchez@x.dummyjson.com",
+    "birthDate": "October 13th 1987, 12:00:00 am",
+    "country": "United States"
+  },
+  {
+    "id": 18,
+    "fullName": "Logan Torres",
+    "email": "logan.torres@x.dummyjson.com",
+    "birthDate": "October 26th 1993, 12:00:00 am",
+    "country": "United States"
+  },
+  {
+    "id": 19,
+    "fullName": "Abigail Rivera",
+    "email": "abigail.rivera@x.dummyjson.com",
+    "birthDate": "October 11th 1996, 12:00:00 am",
+    "country": "United States"
+  },
+  {
+    "id": 20,
+    "fullName": "Jackson Evans",
+    "email": "jackson.evans@x.dummyjson.com",
+    "birthDate": "November 30th 1990, 12:00:00 am",
+    "country": "United States"
+  },
+  {
+    "id": 21,
+    "fullName": "Madison Collins",
+    "email": "madison.collins@x.dummyjson.com",
+    "birthDate": "March 7th 1998, 12:00:00 am",
+    "country": "United States"
+  },
+  {
+    "id": 22,
+    "fullName": "Elijah Stewart",
+    "email": "elijah.stewart@x.dummyjson.com",
+    "birthDate": "October 22nd 1991, 12:00:00 am",
+    "country": "United States"
+  },
+  {
+    "id": 23,
+    "fullName": "Chloe Morales",
+    "email": "chloe.morales@x.dummyjson.com",
+    "birthDate": "April 21st 1985, 12:00:00 am",
+    "country": "United States"
+  },
+  {
+    "id": 24,
+    "fullName": "Mateo Nguyen",
+    "email": "mateo.nguyen@x.dummyjson.com",
+    "birthDate": "June 2nd 1994, 12:00:00 am",
+    "country": "United States"
+  },
+  {
+    "id": 25,
+    "fullName": "Harper Kelly",
+    "email": "harper.kelly@x.dummyjson.com",
+    "birthDate": "March 3rd 1997, 12:00:00 am",
+    "country": "United States"
+  },
+  {
+    "id": 26,
+    "fullName": "Evelyn Gonzalez",
+    "email": "evelyn.gonzalez@x.dummyjson.com",
+    "birthDate": "February 5th 1989, 12:00:00 am",
+    "country": "United States"
+  },
+  {
+    "id": 27,
+    "fullName": "Daniel Cook",
+    "email": "daniel.cook@x.dummyjson.com",
+    "birthDate": "December 25th 1983, 12:00:00 am",
+    "country": "United States"
+  },
+  {
+    "id": 28,
+    "fullName": "Lily Lee",
+    "email": "lily.lee@x.dummyjson.com",
+    "birthDate": "December 3rd 1995, 12:00:00 am",
+    "country": "United States"
+  },
+  {
+    "id": 29,
+    "fullName": "Henry Hill",
+    "email": "henry.hill@x.dummyjson.com",
+    "birthDate": "August 19th 1986, 12:00:00 am",
+    "country": "United States"
+  },
+  {
+    "id": 30,
+    "fullName": "Addison Wright",
+    "email": "addison.wright@x.dummyjson.com",
+    "birthDate": "January 3rd 1992, 12:00:00 am",
+    "country": "United States"
+  }
+]
