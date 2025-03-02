@@ -12,7 +12,31 @@ async function getRecipes() {
     console.log('recipes.json created');
 }
 
-// add something additional and cool
+async function getUsers() {
+    const response = await fetch('https://dummyjson.com/users');
+    const data = await response.json();
+    const users = data.users.map((user) => {
+        const { id, fullName, email, birthDate, country } = user;
+        return { id, fullName, email, birthDate, country };
+    });
+    await fs.writeFile('users.json', JSON.stringify(users, null, 2));
+    console.log('users.json created');
+}
+
+async function getUser(id){
+    const response = await fetch(`https://dummyjson.com/users/${id}`);
+    const data = await response.json();
+    const user = {
+        id: data.id,
+        fullName: data.fullName,
+        email: data.email,
+        birthDate: data.birthDate,
+        country: data.country
+    };
+    await fs.writeFile(`user-${id}.json`, JSON.stringify(user, null, 2));
+    console.log(`user-${id}.json created`);
+}
+
 
 async function getRecipe(id){
     const response = await fetch(`https://dummyjson.com/recipes/${id}`);
@@ -27,4 +51,7 @@ async function getRecipe(id){
     console.log(`recipe-${id}.json created`);
 }
 
+getRecipes();
+getUsers();
+getUser(1);
 getRecipe(1);
